@@ -1,4 +1,4 @@
-# SeaLice	海虱	[Java 8 ]
+# **SeaLice**	海虱	[Java 8 ]
 
 **工具仅用于安全研究以及内部自查，禁止使用工具发起非法攻击，造成的后果使用者负责**
 
@@ -16,8 +16,23 @@
 
 ### 使用说明：
 
+#### 1.程序的启动：
+
 【jdk路径】 【程序名】 Main
 
 如：
 
-D:\Soft1\jdk\jdk1.8\bin\java.exe  -cp .\SeaLice.jar Main
+`D:\Soft1\jdk\jdk1.8\bin\java.exe  -cp .\SeaLice.jar Main`
+
+
+
+#### 2.服务端上传：
+
+1.将Server里的`1.php`上传到本地服务器
+
+2.打开`1.php`文件，搜索 `KJKEbOReDV1`，替换为自己的key,**key是两位一组**
+
+3.运行客户端进行`本地测试`
+
+
+
